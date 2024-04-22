@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1713806940150,
-  "index": "/uhr/index.html",
+  "timestamp": 1713810125708,
+  "index": "/design-systems-poc/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,12 +11,12 @@
         "ignoreVary": true
       },
       "urls": [
-        "/uhr/favicon.ico",
-        "/uhr/index.html",
-        "/uhr/main-HUGIM2VM.js",
-        "/uhr/manifest.webmanifest",
-        "/uhr/polyfills-RT5I6R6G.js",
-        "/uhr/styles-YDNZ54LQ.css"
+        "/design-systems-poc/favicon.ico",
+        "/design-systems-poc/index.html",
+        "/design-systems-poc/main-HUGIM2VM.js",
+        "/design-systems-poc/manifest.webmanifest",
+        "/design-systems-poc/polyfills-RT5I6R6G.js",
+        "/design-systems-poc/styles-YDNZ54LQ.css"
       ],
       "patterns": []
     },
@@ -28,48 +28,48 @@
         "ignoreVary": true
       },
       "urls": [
-        "/uhr/assets/icons/icon-128x128.png",
-        "/uhr/assets/icons/icon-144x144.png",
-        "/uhr/assets/icons/icon-152x152.png",
-        "/uhr/assets/icons/icon-192x192.png",
-        "/uhr/assets/icons/icon-384x384.png",
-        "/uhr/assets/icons/icon-512x512.png",
-        "/uhr/assets/icons/icon-72x72.png",
-        "/uhr/assets/icons/icon-96x96.png",
-        "/uhr/assets/uhr-logo.svg",
-        "/uhr/media/color-3LUHUBGQ.png",
-        "/uhr/media/hue-RMMBQOAC.png",
-        "/uhr/media/primeicons-4GST5W3O.woff2",
-        "/uhr/media/primeicons-DHQU4SEP.svg",
-        "/uhr/media/primeicons-GEFHGEHP.ttf",
-        "/uhr/media/primeicons-P53SE5CV.woff"
+        "/design-systems-poc/assets/icons/icon-128x128.png",
+        "/design-systems-poc/assets/icons/icon-144x144.png",
+        "/design-systems-poc/assets/icons/icon-152x152.png",
+        "/design-systems-poc/assets/icons/icon-192x192.png",
+        "/design-systems-poc/assets/icons/icon-384x384.png",
+        "/design-systems-poc/assets/icons/icon-512x512.png",
+        "/design-systems-poc/assets/icons/icon-72x72.png",
+        "/design-systems-poc/assets/icons/icon-96x96.png",
+        "/design-systems-poc/assets/uhr-logo.svg",
+        "/design-systems-poc/media/color-3LUHUBGQ.png",
+        "/design-systems-poc/media/hue-RMMBQOAC.png",
+        "/design-systems-poc/media/primeicons-4GST5W3O.woff2",
+        "/design-systems-poc/media/primeicons-DHQU4SEP.svg",
+        "/design-systems-poc/media/primeicons-GEFHGEHP.ttf",
+        "/design-systems-poc/media/primeicons-P53SE5CV.woff"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/uhr/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/uhr/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/uhr/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/uhr/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/uhr/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/uhr/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/uhr/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/uhr/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/uhr/assets/uhr-logo.svg": "a3c8a22caa7c61de13e12ffe880abf974286fc2b",
-    "/uhr/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/uhr/index.html": "538acb80757f1c53218808861763a8502892c2e8",
-    "/uhr/main-HUGIM2VM.js": "35a8a8c983cc1d5ce5d723b45fcbdc31ec32c51a",
-    "/uhr/manifest.webmanifest": "556235da7041aa0690dddc0a4b285bdda093c748",
-    "/uhr/media/color-3LUHUBGQ.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
-    "/uhr/media/hue-RMMBQOAC.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "/uhr/media/primeicons-4GST5W3O.woff2": "837c1279b6af9d297f34fdb43e6fcc9206a79f32",
-    "/uhr/media/primeicons-DHQU4SEP.svg": "a07ae39027c1a780b42fd82fad7575c2924d9d28",
-    "/uhr/media/primeicons-GEFHGEHP.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
-    "/uhr/media/primeicons-P53SE5CV.woff": "361e3af71bb4e515feead2f787348a92a5527158",
-    "/uhr/polyfills-RT5I6R6G.js": "fe9f024576f21ff6314cf8f8332cde58b9a12416",
-    "/uhr/styles-YDNZ54LQ.css": "05460709bc05a36fbc576dbd8304dc36824d4215"
+    "/design-systems-poc/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/design-systems-poc/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/design-systems-poc/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/design-systems-poc/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/design-systems-poc/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/design-systems-poc/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/design-systems-poc/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/design-systems-poc/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/design-systems-poc/assets/uhr-logo.svg": "a3c8a22caa7c61de13e12ffe880abf974286fc2b",
+    "/design-systems-poc/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/design-systems-poc/index.html": "98888e956dbd4b5aaeeff60cfc06b67262325026",
+    "/design-systems-poc/main-HUGIM2VM.js": "35a8a8c983cc1d5ce5d723b45fcbdc31ec32c51a",
+    "/design-systems-poc/manifest.webmanifest": "556235da7041aa0690dddc0a4b285bdda093c748",
+    "/design-systems-poc/media/color-3LUHUBGQ.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "/design-systems-poc/media/hue-RMMBQOAC.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "/design-systems-poc/media/primeicons-4GST5W3O.woff2": "837c1279b6af9d297f34fdb43e6fcc9206a79f32",
+    "/design-systems-poc/media/primeicons-DHQU4SEP.svg": "a07ae39027c1a780b42fd82fad7575c2924d9d28",
+    "/design-systems-poc/media/primeicons-GEFHGEHP.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
+    "/design-systems-poc/media/primeicons-P53SE5CV.woff": "361e3af71bb4e515feead2f787348a92a5527158",
+    "/design-systems-poc/polyfills-RT5I6R6G.js": "fe9f024576f21ff6314cf8f8332cde58b9a12416",
+    "/design-systems-poc/styles-YDNZ54LQ.css": "05460709bc05a36fbc576dbd8304dc36824d4215"
   },
   "navigationUrls": [
     {
