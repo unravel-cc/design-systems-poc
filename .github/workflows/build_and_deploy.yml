@@ -29,7 +29,7 @@ jobs:
         run: npm run build-tokens
 
       - name: Build the Angular application
-        run: npx ng build --base-href "/uhr/"
+        run: npx ng build --base-href "/design-systems-poc/"
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
