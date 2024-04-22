@@ -1,0 +1,22 @@
+p-card {
+
+  .p-card {
+    border-radius: #{$border-radius-rounded-2xl}px;
+  }
+
+  &.no-padding {
+
+    .p-card-body,
+    .p-card-content {
+      padding: 0;
+    }
+  }
+}
+
+.field {
+  label {
+    .tight {
+      margin-bottom: #{$space-sizes-padding-small}px;
+    }
+  }
+}

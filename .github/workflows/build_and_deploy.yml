@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18" # Use the Node.js version that matches your development environment
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Compile figma variables
+        run: npm run build-tokens
+
+      - name: Build the Angular application
+        run: npx ng build --base-href "/uhr/"
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist/u-hr/browser # The folder the action should deploy.

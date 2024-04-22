@@ -1,0 +1,90 @@
+// Theme Specific Variables
+$primaryColor: $alias-colors-light-brand-brand-1-rest;
+$primaryDarkColor: $alias-colors-light-brand-brand-1-hover;
+$primaryDarkerColor: $alias-colors-light-brand-brand-1-pressed;
+$primaryTextColor: #ffffff;
+$content-neutral: #737373;
+$stroke-input: $alias-colors-light-stroke-stroke-input-rest;
+$stroke-input-hover: $alias-colors-light-stroke-stroke-input-hover;
+$stroke-input-pressed: $alias-colors-light-stroke-stroke-input-pressed;
+
+$colors: (
+    "blue": $global-colors-light-supplementary-blue-500,
+    "green": $global-colors-light-supplementary-green-500,
+    "yellow": $global-colors-light-supplementary-yellow-500,
+    "cyan": $global-colors-light-main-turkis-500,
+    "pink": #E91E63,
+    "indigo": #3F51B5,
+    "teal": $global-colors-light-main-petrol-500,
+    "orange": $global-colors-light-supplementary-orange-500,
+    "bluegray": $global-colors-light-main-neutrals-500,
+    "purple": #9C27B0,
+    "red": $global-colors-light-supplementary-red-500,
+    "primary": $primaryColor
+);
+
+// Mandatory Designer Variables
+@import './variables/general';
+@import './variables/form';
+@import './variables/button';
+@import './variables/panel';
+@import './variables/_data';
+@import './variables/_overlay';
+@import './variables/_message';
+@import './variables/_menu';
+@import './variables/_media';
+@import './variables/_misc';
+
+:root {
+    --font-family: #{$fontFamily};
+    --surface-a: #ffffff;
+    --surface-b: #f8f9fa;
+    --surface-c: #e9ecef;
+    --surface-d: #dee2e6;
+    --surface-e: #ffffff;
+    --surface-f: #ffffff;
+    --text-color: #495057;
+    --text-color-secondary: #6c757d;
+    --primary-color: #2196F3;
+    --primary-color-text: #ffffff;
+    --surface-0: #ffffff;
+    --surface-50: #FAFAFA;
+    --surface-100: #F5F5F5;
+    --surface-200: #EEEEEE;
+    --surface-300: #E0E0E0;
+    --surface-400: #BDBDBD;
+    --surface-500: #9E9E9E;
+    --surface-600: #757575;
+    --surface-700: #616161;
+    --surface-800: #424242;
+    --surface-900: #212121;
+    --content-padding:#{$panelContentPadding};
+    --inline-spacing:#{$inlineSpacing};
+    --border-radius:#{$borderRadius};
+    --surface-ground: #f8f9fa;
+    --surface-section: #ffffff;
+    --surface-card: #ffffff;
+    --surface-overlay: #ffffff;
+    --surface-border: #dee2e6;
+    --surface-hover: #e9ecef;
+    --maskbg: #{$maskBg};
+    --highlight-bg: #{$highlightBg};
+    --highlight-text-color: #{$highlightTextColor};
+    --focus-ring: #{$focusShadow};
+    --teal-100: #{$global-colors-dark-main-petrol-100} !important;
+    --teal-200: #{$global-colors-dark-main-petrol-200} !important;
+    --teal-300: #{$global-colors-dark-main-petrol-300} !important;
+    --teal-400: #{$global-colors-dark-main-petrol-400} !important;
+    --teal-500: #{$global-colors-dark-main-petrol-500} !important;
+    --teal-600: #{$global-colors-dark-main-petrol-600} !important;
+    --teal-700: #{$global-colors-dark-main-petrol-700} !important;
+    --teal-800: #{$global-colors-dark-main-petrol-800} !important;
+    --teal-900: #{$global-colors-dark-main-petrol-900} !important;
+    --red-600: #{$global-colors-light-supplementary-red-600} !important;
+    --content-neutral: #{$content-neutral};
+    --stroke-input: #{$stroke-input};
+    --stroke-input-hover: #{$stroke-input-hover};
+    --stroke-input-pressed: #{$stroke-input-pressed};
+    --danger-text: #{$alias-colors-light-status-danger-rest};
+    color-scheme: light;
+}

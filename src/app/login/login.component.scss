@@ -1,0 +1,56 @@
+:host {
+  ::ng-deep {
+    .p-card-body {
+      height: 100%;
+    }
+
+    .p-card-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+
+    .form-fields {
+      margin-top: 48px;
+      margin-bottom: 48px;
+    }
+
+    .token-login {
+      border: 1px solid var(--stroke-input);
+      color: var(--teal-800);
+      justify-content: center;
+      padding: 12px 0;
+
+      &:hover {
+        border-color: var(--stroke-input-hover);
+      }
+    }
+  }
+}
+
+.bottom-spacer {
+  max-height: 100px;
+  height: 100%;
+}
+
+#logo {
+  height: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  flex-shrink: 0;
+}
+
+.inner-wrapper {
+  max-width: 715px;
+  min-width: 430px;
+  max-height: 928px;
+  min-height: 778px;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 400px;
+}

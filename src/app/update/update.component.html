@@ -1,0 +1,22 @@
+<p-dialog
+  header="Site update"
+  [(visible)]="dialogVisible"
+  [modal]="true"
+  [closable]="true"
+>
+  <p>A <b>new version</b> of the website has been released.</p>
+  <p>Would you like to refresh the page?</p>
+  <div class="flex justify-content-between mb-3 mt-4">
+    <p-button
+      label="Not right now"
+      text="true"
+      severity="secondary"
+      (click)="dialogVisible = false"
+    ></p-button>
+    <p-button
+      label="Yes, reload"
+      icon="pi pi-refresh"
+      (click)="reload()"
+    ></p-button>
+  </div>
+</p-dialog>
