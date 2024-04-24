@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1713947208177,
+  "timestamp": 1713972145648,
   "index": "/design-systems-poc/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "/design-systems-poc/main-HUGIM2VM.js",
         "/design-systems-poc/manifest.webmanifest",
         "/design-systems-poc/polyfills-RT5I6R6G.js",
-        "/design-systems-poc/styles-FN3VAGP7.css"
+        "/design-systems-poc/styles-R7B5TXKW.css"
       ],
       "patterns": []
     },
@@ -59,7 +59,7 @@
     "/design-systems-poc/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/design-systems-poc/assets/uhr-logo.svg": "a3c8a22caa7c61de13e12ffe880abf974286fc2b",
     "/design-systems-poc/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/design-systems-poc/index.html": "9f6a8e443f5d75b6547a3f894e7a0c1b611669c6",
+    "/design-systems-poc/index.html": "19f83f52035324749166b08f4098d02b783fcbc3",
     "/design-systems-poc/main-HUGIM2VM.js": "35a8a8c983cc1d5ce5d723b45fcbdc31ec32c51a",
     "/design-systems-poc/manifest.webmanifest": "556235da7041aa0690dddc0a4b285bdda093c748",
     "/design-systems-poc/media/color-3LUHUBGQ.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
@@ -69,7 +69,7 @@
     "/design-systems-poc/media/primeicons-GEFHGEHP.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
     "/design-systems-poc/media/primeicons-P53SE5CV.woff": "361e3af71bb4e515feead2f787348a92a5527158",
     "/design-systems-poc/polyfills-RT5I6R6G.js": "fe9f024576f21ff6314cf8f8332cde58b9a12416",
-    "/design-systems-poc/styles-FN3VAGP7.css": "41790f33824e900bc23d9ec3ea6972b8fac762a7"
+    "/design-systems-poc/styles-R7B5TXKW.css": "34591179fa63a1b75f13b892d177440c44734f63"
   },
   "navigationUrls": [
     {
