@@ -43,6 +43,7 @@ $colors: (
     --content-neutral: #737373;
 
     .light {
+        --maskbg: rgba(12, 12, 12, 0.433) !important;
         --primary-color: #{$alias-colors-light-brand-brand-1-rest};
         --text-color: #{$alias-colors-light-foreground-foreground-2};
         --text-0: #{$alias-colors-light-foreground-foreground-1};
@@ -78,6 +79,7 @@ $colors: (
     }
 
     .dark {
+        --maskbg: rgba(255, 255, 255, 0.281) !important;
         --primary-color: #{$alias-colors-dark-brand-brand-1-rest};
         --text-color: #{$alias-colors-dark-foreground-foreground-2};
         --text-0: #{$alias-colors-dark-foreground-foreground-1};

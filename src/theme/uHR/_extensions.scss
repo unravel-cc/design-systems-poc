@@ -33,3 +33,7 @@ p-card {
 .text-100 {
   color: var(--text-100) !important;
 }
+
+.p-dialog-header-close:hover {
+  background: transparent !important;
+}
