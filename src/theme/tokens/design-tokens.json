@@ -1060,7 +1060,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#8d4a0dff",
+          "value": "#ae1414ff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
@@ -2617,7 +2617,7 @@
     },
     "rounded-lg": {
       "type": "dimension",
-      "value": 1
+      "value": 8
     },
     "rounded-xl": {
       "type": "dimension",
