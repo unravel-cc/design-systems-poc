@@ -1060,7 +1060,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#d9d21fff",
+          "value": "#11636eff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
@@ -1457,7 +1457,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#0e5660ff",
+          "value": "#0b6886ff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
