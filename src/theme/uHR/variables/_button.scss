@@ -12,39 +12,39 @@ $buttonIconOnlyPadding: .5rem 0;
 
 /// Background of a button
 /// @group button
-$buttonBg: $primaryColor;
+$buttonBg: var(--primary-color);
 
 /// Text color of a button
 /// @group button
-$buttonTextColor: $primaryTextColor;
+$buttonTextColor: var(--color-onbrand);
 
 /// Border of a button
 /// @group button
-$buttonBorder: 1px solid $primaryColor;
+$buttonBorder: 1px solid var(--primary-color);
 
 /// Background of a button in hover state
 /// @group button
-$buttonHoverBg: $primaryDarkColor;
+$buttonHoverBg: var(--background-brand-hover);
 
 /// Text color of a button in hover state
 /// @group button
-$buttonTextHoverColor: $primaryTextColor;
+$buttonTextHoverColor: var(--color-onbrand);
 
 /// Border color of a button in hover state
 /// @group button
-$buttonHoverBorderColor: $primaryDarkColor;
+$buttonHoverBorderColor: var(--background-brand-hover);
 
 /// Background of a button in pressed state
 /// @group button
-$buttonActiveBg: $primaryDarkerColor;
+$buttonActiveBg: var(--background-brand-active);
 
 /// Color of a button in pressed state
 /// @group button
-$buttonTextActiveColor: $primaryTextColor;
+$buttonTextActiveColor: var(--color-onbrand);
 
 /// Border color of a button in pressed state
 /// @group button
-$buttonActiveBorderColor: $primaryDarkerColor;
+$buttonActiveBorderColor: var(--background-brand-active);
 
 /// Shadow of a raised button
 /// @group button
@@ -320,11 +320,11 @@ $dangerButtonFocusShadow: 0 0 0 0.2rem lighten($dangerButtonBg, 35%);
 
 /// Text color of a link button
 /// @group button
-$linkButtonColor: $primaryDarkerColor;
+$linkButtonColor: var(--text-50);
 
 /// Text color of a link button in hover state
 /// @group button
-$linkButtonHoverColor: $primaryDarkerColor;
+$linkButtonHoverColor: var(--text-50);
 
 /// Text decoration of a link button in hover state
 /// @group button
@@ -336,11 +336,11 @@ $linkButtonFocusShadow: 0 0 0 0.2rem $focusOutlineColor;
 
 /// Background of a toggle button
 /// @group button
-$toggleButtonBg: #ffffff;
+$toggleButtonBg: var(--surface-100);
 
 /// Border of a toggle button
 /// @group button
-$toggleButtonBorder: 1px solid #ced4da;
+$toggleButtonBorder: 1px solid var(---stroke-input);
 
 /// Text color of a toggle button
 /// @group button
@@ -352,11 +352,11 @@ $toggleButtonIconColor: $textSecondaryColor;
 
 /// Background of a toggle button in hover state
 /// @group button
-$toggleButtonHoverBg: #e9ecef;
+$toggleButtonHoverBg: var(---background-input-hover);
 
 /// Border color of a toggle button in hover state
 /// @group button
-$toggleButtonHoverBorderColor: #ced4da;
+$toggleButtonHoverBorderColor: var(---stroke-input-hover);
 
 /// Text color of a toggle button in hover state
 /// @group button

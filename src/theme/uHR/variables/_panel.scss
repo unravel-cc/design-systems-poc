@@ -56,7 +56,7 @@ $panelContentEvenRowBg: #e9ecef;
 
 /// Text color for the content section of a panel
 /// @group panel
-$panelContentTextColor: $textColor;
+$panelContentTextColor: var(--text-color);
 
 /// Padding for the content section of a panel
 /// @group panel

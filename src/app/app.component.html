@@ -1,2 +1,20 @@
+<div
+  class="absolute"
+  style="top: 20px; right: 20px"
+  [ngClass]="appService.theme"
+>
+  <p-selectButton
+    [options]="selectOptions"
+    [(ngModel)]="appService.theme"
+    unselectable="true"
+    optionLabel="icon"
+    optionValue="value"
+  >
+    <ng-template let-item pTemplate>
+      <i [class]="item.icon"></i>
+    </ng-template>
+  </p-selectButton>
+</div>
 <router-outlet />
 <app-update></app-update>
+

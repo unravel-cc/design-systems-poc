@@ -9,18 +9,18 @@ $stroke-input-hover: $alias-colors-light-stroke-stroke-input-hover;
 $stroke-input-pressed: $alias-colors-light-stroke-stroke-input-pressed;
 
 $colors: (
-    "blue": $global-colors-light-supplementary-blue-500,
-    "green": $global-colors-light-supplementary-green-500,
-    "yellow": $global-colors-light-supplementary-yellow-500,
-    "cyan": $global-colors-light-main-turkis-500,
-    "pink": #E91E63,
-    "indigo": #3F51B5,
-    "teal": $global-colors-light-main-petrol-500,
-    "orange": $global-colors-light-supplementary-orange-500,
-    "bluegray": $global-colors-light-main-neutrals-500,
-    "purple": #9C27B0,
-    "red": $global-colors-light-supplementary-red-500,
-    "primary": $primaryColor
+    // "blue": $global-colors-light-supplementary-blue-500,
+    // "green": $global-colors-light-supplementary-green-500,
+    // "yellow": $global-colors-light-supplementary-yellow-500,
+    // "cyan": $global-colors-light-main-turkis-500,
+    // "pink": #E91E63,
+    // "indigo": #3F51B5,
+    // "teal": $global-colors-light-main-petrol-500,
+    // "orange": $global-colors-light-supplementary-orange-500,
+    // "bluegray": $global-colors-light-main-neutrals-500,
+    // "purple": #9C27B0,
+    // "red": $global-colors-light-supplementary-red-500,
+    // "primary": $primaryColor
 );
 
 // Mandatory Designer Variables
@@ -35,56 +35,80 @@ $colors: (
 @import './variables/_media';
 @import './variables/_misc';
 
+
 :root {
     --font-family: #{$fontFamily};
-    --surface-a: #ffffff;
-    --surface-b: #f8f9fa;
-    --surface-c: #e9ecef;
-    --surface-d: #dee2e6;
-    --surface-e: #ffffff;
-    --surface-f: #ffffff;
-    --text-color: #495057;
-    --text-color-secondary: #6c757d;
-    --primary-color: #2196F3;
-    --primary-color-text: #ffffff;
-    --surface-0: #ffffff;
-    --surface-50: #FAFAFA;
-    --surface-100: #F5F5F5;
-    --surface-200: #EEEEEE;
-    --surface-300: #E0E0E0;
-    --surface-400: #BDBDBD;
-    --surface-500: #9E9E9E;
-    --surface-600: #757575;
-    --surface-700: #616161;
-    --surface-800: #424242;
-    --surface-900: #212121;
-    --content-padding:#{$panelContentPadding};
-    --inline-spacing:#{$inlineSpacing};
-    --border-radius:#{$borderRadius};
-    --surface-ground: #f8f9fa;
-    --surface-section: #ffffff;
-    --surface-card: #ffffff;
-    --surface-overlay: #ffffff;
-    --surface-border: #dee2e6;
-    --surface-hover: #e9ecef;
-    --maskbg: #{$maskBg};
-    --highlight-bg: #{$highlightBg};
-    --highlight-text-color: #{$highlightTextColor};
-    --focus-ring: #{$focusShadow};
-    --teal-100: #{$global-colors-dark-main-petrol-100} !important;
-    --teal-200: #{$global-colors-dark-main-petrol-200} !important;
-    --teal-300: #{$global-colors-dark-main-petrol-300} !important;
-    --teal-400: #{$global-colors-dark-main-petrol-400} !important;
-    --teal-500: #{$global-colors-dark-main-petrol-500} !important;
-    --teal-600: #{$global-colors-dark-main-petrol-600} !important;
-    --teal-700: #{$global-colors-dark-main-petrol-700} !important;
-    --teal-800: #{$global-colors-dark-main-petrol-800} !important;
-    --teal-900: #{$global-colors-dark-main-petrol-900} !important;
-    --red-600: #{$global-colors-light-supplementary-red-600} !important;
-    --content-neutral: #{$content-neutral};
-    --stroke-input: #{$stroke-input};
-    --stroke-input-hover: #{$stroke-input-hover};
-    --stroke-input-pressed: #{$stroke-input-pressed};
-    --danger-text: #{$alias-colors-light-status-danger-rest};
-    color-scheme: light;
+    --primary-light: #{$alias-colors-light-brand-brand-1-rest};
+    --primary-dark: #{$alias-colors-dark-brand-brand-1-rest};
+    --content-neutral: #737373;
+
+    .light {
+        --primary-color: #{$alias-colors-light-brand-brand-1-rest};
+        --text-color: #{$alias-colors-light-foreground-foreground-2};
+        --text-0: #{$alias-colors-light-foreground-foreground-1};
+        --text-50: #{$alias-colors-light-foreground-foreground-2};
+        --text-100: #{$alias-colors-light-foreground-foreground-3};
+        --surface-0: #{$alias-colors-light-background-background-1};
+        --surface-50: #{$alias-colors-light-background-background-2};
+        --surface-100: #{$alias-colors-light-background-background-3};
+
+        --color-danger: #{$alias-colors-light-status-danger-rest};
+        --color-success: #{$alias-colors-light-status-success-rest};
+        --color-warning: #{$alias-colors-light-status-warning};
+        --color-onbrand: #{$alias-colors-light-foreground-foreground-onbrand};
+        --red-600: #{$alias-colors-light-status-danger-rest};
+
+        --stroke-input: #{$alias-colors-light-stroke-stroke-input-rest};
+        --stroke-input-hover: #{$alias-colors-light-stroke-stroke-input-hover};
+        --stroke-input-pressed: #{$alias-colors-light-stroke-stroke-input-pressed};
+        --stroke-input-selected: #{$alias-colors-light-stroke-stroke-input-selected};
+        --stroke-input-disabled: #{$alias-colors-light-stroke-stroke-input-disabled};
+        --stroke-onbrand: #{    $alias-colors-light-stroke-stroke-onbrand};
+        --stroke-focus: #{$alias-colors-light-stroke-stroke-focus};
+        --stroke-divider: #{$alias-colors-light-stroke-stroke-divider};
+
+        --background-input: #{$alias-colors-light-background-background-input-rest};
+        --background-menu: #{$alias-colors-light-background-background-menu};
+        --background-input-hover: #{$alias-colors-light-background-background-input-hover};
+        --background-input-pressed: #{$alias-colors-light-background-background-input-pressed};
+        --background-input-selected: #{$alias-colors-light-background-background-input-selected};
+        --background-input-disabled: #{$alias-colors-light-background-background-input-disabled};
+        --background-brand-hover: #{$alias-colors-light-brand-brand-1-hover};
+        --background-brand-active: #{$alias-colors-light-brand-brand-1-pressed};
+    }
+
+    .dark {
+        --primary-color: #{$alias-colors-dark-brand-brand-1-rest};
+        --text-color: #{$alias-colors-dark-foreground-foreground-2};
+        --text-0: #{$alias-colors-dark-foreground-foreground-1};
+        --text-50: #{$alias-colors-dark-foreground-foreground-2};
+        --text-100: #{$alias-colors-dark-foreground-foreground-3};
+        --surface-0: #{$alias-colors-dark-background-background-1};
+        --surface-50: #{$alias-colors-dark-background-background-2};
+        --surface-100: #{$alias-colors-dark-background-background-3};
+
+        --color-danger: #{$alias-colors-dark-status-danger-rest};
+        --color-success: #{$alias-colors-dark-status-success-rest};
+        --color-warning: #{$alias-colors-dark-status-warning};
+        --color-onbrand: #{$alias-colors-dark-foreground-foreground-onbrand};
+        --red-600: #{$alias-colors-dark-status-danger-rest};
+
+        --stroke-input: #{$alias-colors-dark-stroke-stroke-input-rest};
+        --stroke-input-hover: #{$alias-colors-dark-stroke-stroke-input-hover};
+        --stroke-input-pressed: #{$alias-colors-dark-stroke-stroke-input-pressed};
+        --stroke-input-selected: #{$alias-colors-dark-stroke-stroke-input-selected};
+        --stroke-input-disabled: #{$alias-colors-dark-stroke-stroke-input-disabled};
+        --stroke-onbrand: #{$alias-colors-dark-stroke-stroke-onbrand};
+        --stroke-focus: #{$alias-colors-dark-stroke-stroke-focus};
+        --stroke-divider: #{$alias-colors-dark-stroke-stroke-divider};
+
+        --background-input: #{$alias-colors-dark-background-background-input-rest};
+        --background-menu: #{$alias-colors-dark-background-background-menu};
+        --background-input-hover: #{$alias-colors-dark-background-background-input-hover};
+        --background-input-pressed: #{$alias-colors-dark-background-background-input-pressed};
+        --background-input-selected: #{$alias-colors-dark-background-background-input-selected};
+        --background-input-disabled: #{$alias-colors-dark-background-background-input-disabled};
+        --background-brand-hover: #{$alias-colors-dark-brand-brand-1-hover};
+        --background-brand-active: #{$alias-colors-dark-brand-brand-1-pressed};
+    }
 }

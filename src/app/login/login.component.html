@@ -2,21 +2,29 @@
   class="wrapper flex justify-content-center align-items-center h-full w-full"
 >
   <div class="inner-wrapper w-full h-full">
-    <p-card styleClass="card w-full h-full" class="no-padding h-full">
+    <p-card styleClass="card w-full h-full surface-0" class="no-padding h-full">
       <div style="max-height: 60px" class="flex-grow-1"></div>
-      <img src="assets/uhr-logo.svg" id="logo" />
+      <!-- logo -->
+      <app-logo class="block" id="logo"></app-logo>
+      <!-- logo end -->
       <div style="max-height: 80px" class="flex-grow-1"></div>
-      <form>
+      <form autocomplete="off">
         <div class="text-3xl font-semibold">Sign in</div>
         <div class="form-fields">
-          <div class="field mb-4 text-teal-600">
-            <label for="email" class="text-sm tight text-xs"
+          <div class="field mb-4">
+            <label for="email" class="tight text-sm text-100"
               >E-mail<span class="ml-1 text-red-600">*</span></label
             >
-            <input pInputText id="email" name="email" class="w-full" />
+            <input
+              pInputText
+              id="email"
+              name="email"
+              class="w-full"
+              autocomplete="off"
+            />
           </div>
-          <div class="field text-teal-600">
-            <label for="password" class="text-sm tight text-xs"
+          <div class="field">
+            <label for="password" class="tight text-sm text-100"
               >Password<span class="ml-1 text-red-600">*</span></label
             >
             <input
@@ -25,9 +33,10 @@
               id="password"
               name="Password"
               class="w-full"
+              autocomplete="off"
             />
           </div>
-          <div class="field text-teal-600">
+          <div class="field text-0">
             <p-checkbox
               id="remember"
               name="remember"

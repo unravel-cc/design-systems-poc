@@ -4,7 +4,7 @@ $inputPadding: .5rem .5rem;
 
 /// Background of an input field
 /// @group form
-$inputBg: #ffffff;
+$inputBg: var(--background-input);
 
 /// Font size of an input field
 /// @group form
@@ -20,15 +20,15 @@ $inputIconColor: $textColor;
 
 /// Border of an input field
 /// @group form
-$inputBorder: 1px solid $alias-colors-light-stroke-stroke-input-rest;
+$inputBorder: 1px solid var(--stroke-input);
 
 /// Border of an input field in hover state
 /// @group form
-$inputHoverBorderColor: $alias-colors-light-stroke-stroke-input-hover;
+$inputHoverBorderColor: var(--stroke-input-hover);
 
 /// Border of an input field in focus state
 /// @group form
-$inputFocusBorderColor: $alias-colors-light-stroke-stroke-focus;
+$inputFocusBorderColor: var(--stroke-input-focus);
 
 /// Color of an input field in invalid state
 /// @group form
@@ -169,7 +169,7 @@ $checkboxHeight: 20px;
 
 /// Border of a checkbox
 /// @group form
-$checkboxBorder: 2px solid #ced4da;
+$checkboxBorder: 1px solid var(--stroke-input);
 
 /// Size of a checkbox icon
 /// @group form

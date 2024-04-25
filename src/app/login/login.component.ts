@@ -4,6 +4,7 @@ import { ButtonModule } from 'primeng/button';
 import { CheckboxModule } from 'primeng/checkbox';
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
+import { LogoComponent } from '../logo/logo.component';
 
 @Component({
   templateUrl: './login.component.html',
@@ -15,6 +16,7 @@ import { FormsModule } from '@angular/forms';
     CheckboxModule,
     InputTextModule,
     FormsModule,
+    LogoComponent,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
