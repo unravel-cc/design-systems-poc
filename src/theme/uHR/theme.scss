@@ -11,12 +11,13 @@
 html {
   font-size: 16px;
   height: 100%;
+  font-family: var(--font-family);
 }
 
 body {
   overflow: hidden;
   height: 100%;
-  background-color: var(--surface-50);
+  background-color: var(--surface-0);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;

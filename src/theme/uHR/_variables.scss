@@ -42,6 +42,14 @@ $colors: (
     --primary-dark: #{$alias-colors-dark-brand-brand-1-rest};
     --content-neutral: #737373;
 
+    --padding-xxlarge: #{$space-sizes-padding-xxlarge}px;
+    --gap-large: #{$space-sizes-gap-large}px;
+    --gap-medium: #{$space-sizes-gap-medium}px;
+
+    --radius-lg: #{$border-radius-rounded-lg}px;
+    --radius-xl: #{$border-radius-rounded-xl}px;
+    --radius-3xl: #{$border-radius-rounded-3xl}px;
+
     .light {
         --maskbg: rgba(12, 12, 12, 0.433) !important;
         --primary-color: #{$alias-colors-light-brand-brand-1-rest};
@@ -49,6 +57,7 @@ $colors: (
         --text-0: #{$alias-colors-light-foreground-foreground-1};
         --text-50: #{$alias-colors-light-foreground-foreground-2};
         --text-100: #{$alias-colors-light-foreground-foreground-3};
+        --text-150: #{$alias-colors-light-foreground-foreground-4};
         --surface-0: #{$alias-colors-light-background-background-1};
         --surface-50: #{$alias-colors-light-background-background-2};
         --surface-100: #{$alias-colors-light-background-background-3};
@@ -76,6 +85,16 @@ $colors: (
         --background-input-disabled: #{$alias-colors-light-background-background-input-disabled};
         --background-brand-hover: #{$alias-colors-light-brand-brand-1-hover};
         --background-brand-active: #{$alias-colors-light-brand-brand-1-pressed};
+        --background-2: #{$alias-colors-light-background-background-2};
+        --icon-color: #{$alias-colors-light-foreground-foreground-icon-rest};
+
+        --chart-1: #{$alias-colors-light-chart-1};
+        --chart-2: #{$alias-colors-light-chart-2};
+        --chart-3: #{$alias-colors-light-chart-3};
+        --chart-4: #{$alias-colors-light-chart-4};
+
+        --small-logo: black;
+
     }
 
     .dark {
@@ -85,6 +104,7 @@ $colors: (
         --text-0: #{$alias-colors-dark-foreground-foreground-1};
         --text-50: #{$alias-colors-dark-foreground-foreground-2};
         --text-100: #{$alias-colors-dark-foreground-foreground-3};
+        --text-150: #{$alias-colors-dark-foreground-foreground-4};
         --surface-0: #{$alias-colors-dark-background-background-1};
         --surface-50: #{$alias-colors-dark-background-background-2};
         --surface-100: #{$alias-colors-dark-background-background-3};
@@ -112,5 +132,14 @@ $colors: (
         --background-input-disabled: #{$alias-colors-dark-background-background-input-disabled};
         --background-brand-hover: #{$alias-colors-dark-brand-brand-1-hover};
         --background-brand-active: #{$alias-colors-dark-brand-brand-1-pressed};
+        --background-2: #{$alias-colors-dark-background-background-2};
+        --icon-color: #{$alias-colors-dark-foreground-foreground-icon-rest};
+
+        --chart-1: #{$alias-colors-dark-chart-1};
+        --chart-2: #{$alias-colors-dark-chart-2};
+        --chart-3: #{$alias-colors-dark-chart-3};
+        --chart-4: #{$alias-colors-dark-chart-4};
+
+        --small-logo: white;
     }
 }

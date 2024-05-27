@@ -1,0 +1,22 @@
+:host {
+  ::ng-deep {
+
+    p-card {
+      width: 328px;
+    }
+
+    .p-card-content {
+      padding: var(--padding-xxlarge);
+    }
+  }
+
+  .name-text {
+    margin-left: var(--gap-large);
+  }
+
+  .ico {
+    background-color: var(--background-2);
+    padding: var(--gap-medium);
+    border-radius: var(--radius-xl);
+  }
+}

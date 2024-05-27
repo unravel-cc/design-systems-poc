@@ -1,0 +1,30 @@
+:host {
+  ::ng-deep {
+
+    p-card {
+      width: 287px;
+    }
+
+    .p-card-body {
+      // width: 100%;
+      // height: 100%;
+    }
+
+    .p-card-content {
+      padding: var(--padding-xxlarge);
+      // height: 320px;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+    }
+
+    .ico {
+      border-radius: var(--radius-3xl);
+      border-width: 1px;
+      border-color: var(--surface-100);
+      border-style: solid;
+      width: 48px;
+      height: 48px;
+    }
+  }
+}

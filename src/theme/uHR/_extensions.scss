@@ -37,3 +37,11 @@ p-card {
 .p-dialog-header-close:hover {
   background: transparent !important;
 }
+
+.p-inputtext {
+  border-radius: var(--radius-lg);
+}
+
+.p-card {
+  background: var(--surface-0);
+}

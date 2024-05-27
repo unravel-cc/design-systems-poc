@@ -1,0 +1,139 @@
+<div class="flex w-full h-full justify-content-center">
+  <div class="flex h-full p-6 gap-6" style="width: 1440px; min-width: 1440px">
+    <div
+      class="panel flex flex-column align-items-center justify-content-center"
+    >
+      <app-logo></app-logo>
+      <ng-container *ngTemplateOutlet="formPanel"></ng-container>
+    </div>
+    <div class="panel">
+      <p-card styleClass="surface-100  h-full right-panel">
+        <ng-container *ngTemplateOutlet="chartBits"></ng-container>
+      </p-card>
+    </div>
+  </div>
+</div>
+
+<ng-template #formPanel>
+  <form class="w-full">
+    <div class="welcome-text font-semibold line-height-1 text-color">
+      Welcome back!
+    </div>
+    <ng-container
+      *ngTemplateOutlet="
+        formField;
+        context: { $implicit: 'E-mail', type: 'text' }
+      "
+    ></ng-container>
+    <ng-container
+      *ngTemplateOutlet="
+        formField;
+        context: { $implicit: 'Password', type: 'password' }
+      "
+    ></ng-container>
+    <div>
+      <p-checkbox [binary]="true"></p-checkbox>
+      <label class="mb-0 text-primary ml-2">Remember my e-mail</label>
+    </div>
+    <p-button label="Log in" styleClass="w-full"></p-button>
+    <div class="flex justify-content-between" style="gap: 24px">
+      <ng-container
+        *ngTemplateOutlet="
+          quickLogin;
+          context: { $implicit: 'iCloud account', logo: logoApple }
+        "
+      ></ng-container>
+      <ng-container
+        *ngTemplateOutlet="
+          quickLogin;
+          context: { $implicit: 'Google account', logo: logoGoogle }
+        "
+      ></ng-container>
+    </div>
+  </form>
+</ng-template>
+
+<ng-template #formField let-label let-type="type">
+  <div class="field-wrapper">
+    <label class="text-sm text-primary block" [for]="label"
+      >{{ label }}<span class="font-bold relative">*</span></label
+    >
+    <input
+      [id]="'#' + label"
+      [name]="label"
+      [type]="type"
+      pInputText
+      class="w-full"
+    />
+  </div>
+</ng-template>
+
+<ng-template #chartBits>
+  <div class="relative chart-bits">
+    <chart1 class="absolute" style="left: 151px"></chart1>
+    <div
+      class="border-circle bg-primary absolute"
+      style="right: 77px; top: 420px"
+    ></div>
+    <chart3 class="absolute" style="left: 105px; top: 440px"></chart3>
+    <chart2 class="absolute" style="left: 222px; top: 180px"></chart2>
+  </div>
+</ng-template>
+
+<ng-template #logoApple>
+  <svg
+    width="18"
+    height="22"
+    viewBox="0 0 18 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#clip0_352_13881)">
+      <path
+        d="M17.3382 7.4998C17.2106 7.5988 14.9578 8.8682 14.9578 11.6908C14.9578 14.9556 17.8244 16.1106 17.9102 16.1392C17.897 16.2096 17.4548 17.721 16.3988 19.261C15.4572 20.6162 14.4738 21.9692 12.9778 21.9692C11.4818 21.9692 11.0968 21.1002 9.3698 21.1002C7.6868 21.1002 7.0884 21.9978 5.72 21.9978C4.3516 21.9978 3.3968 20.7438 2.299 19.2038C1.0274 17.3954 0 14.586 0 11.9196C0 7.6428 2.7808 5.3746 5.5176 5.3746C6.9718 5.3746 8.184 6.3294 9.097 6.3294C9.966 6.3294 11.3212 5.3174 12.9756 5.3174C13.6026 5.3174 15.8554 5.3746 17.3382 7.4998ZM12.1902 3.5068C12.8744 2.695 13.3584 1.5686 13.3584 0.4422C13.3584 0.286 13.3452 0.1276 13.3166 0C12.2034 0.0418 10.879 0.7414 10.0804 1.6676C9.4534 2.3804 8.8682 3.5068 8.8682 4.6486C8.8682 4.8202 8.8968 4.9918 8.91 5.0468C8.9804 5.06 9.0948 5.0754 9.2092 5.0754C10.208 5.0754 11.4642 4.4066 12.1902 3.5068Z"
+        fill="var(--small-logo)"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_352_13881">
+        <rect width="17.908" height="22" fill="white" />
+      </clipPath>
+    </defs>
+  </svg>
+</ng-template>
+
+<ng-template #logoGoogle>
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M21.8055 10.0415H21V10H12V14H17.6515C16.827 16.3285 14.6115 18 12 18C8.6865 18 6 15.3135 6 12C6 8.6865 8.6865 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C6.4775 2 2 6.4775 2 12C2 17.5225 6.4775 22 12 22C17.5225 22 22 17.5225 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z"
+      fill="#FFC107"
+    />
+    <path
+      d="M3.15283 7.3455L6.43833 9.755C7.32733 7.554 9.48033 6 11.9998 6C13.5293 6 14.9208 6.577 15.9803 7.5195L18.8088 4.691C17.0228 3.0265 14.6338 2 11.9998 2C8.15883 2 4.82783 4.1685 3.15283 7.3455Z"
+      fill="#FF3D00"
+    />
+    <path
+      d="M12.0002 22.0001C14.5832 22.0001 16.9302 21.0116 18.7047 19.4041L15.6097 16.7851C14.6057 17.5456 13.3577 18.0001 12.0002 18.0001C9.39916 18.0001 7.19066 16.3416 6.35866 14.0271L3.09766 16.5396C4.75266 19.7781 8.11366 22.0001 12.0002 22.0001Z"
+      fill="#4CAF50"
+    />
+    <path
+      d="M21.8055 10.0415H21V10H12V14H17.6515C17.2555 15.1185 16.536 16.083 15.608 16.7855L15.6095 16.7845L18.7045 19.4035C18.4855 19.6025 22 17 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z"
+      fill="#1976D2"
+    />
+  </svg>
+</ng-template>
+
+<ng-template #quickLogin let-text let-logo="logo">
+  <div
+    class="flex quick-login cursor-pointer flex-grow-1 justify-content-center"
+  >
+    <ng-container *ngTemplateOutlet="logo"></ng-container>
+    <span class="ml-3 text-color">{{ text }}</span>
+  </div>
+</ng-template>
