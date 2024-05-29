@@ -1060,7 +1060,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#15636dff",
+          "value": "#4caf50ff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
@@ -1167,7 +1167,7 @@
         },
         "foreground icon rest": {
           "type": "color",
-          "value": "#68949cff",
+          "value": "#4caf50ff",
           "blendMode": "normal"
         },
         "foreground onbrand": {
@@ -1391,7 +1391,7 @@
         },
         "2": {
           "type": "color",
-          "value": "#f46570ff",
+          "value": "#404040ff",
           "blendMode": "normal"
         },
         "3": {
@@ -2621,11 +2621,11 @@
     },
     "rounded-xl": {
       "type": "dimension",
-      "value": 12
+      "value": 0
     },
     "rounded-2xl": {
       "type": "dimension",
-      "value": 16
+      "value": 0
     },
     "rounded-3xl": {
       "type": "dimension",
