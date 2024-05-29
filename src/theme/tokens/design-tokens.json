@@ -1028,7 +1028,7 @@
         },
         "background menu": {
           "type": "color",
-          "value": "#013638ff",
+          "value": "#15636dff",
           "blendMode": "normal"
         },
         "background input hover": {
@@ -1060,7 +1060,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#15636dff",
+          "value": "#ff3d00ff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
