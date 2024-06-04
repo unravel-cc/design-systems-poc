@@ -1023,7 +1023,7 @@
         },
         "background input rest": {
           "type": "color",
-          "value": "#ffffffff",
+          "value": "#c8c8c8ff",
           "blendMode": "normal"
         },
         "background menu": {
