@@ -1060,7 +1060,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#4caf50ff",
+          "value": "#15636dff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
@@ -1167,7 +1167,7 @@
         },
         "foreground icon rest": {
           "type": "color",
-          "value": "#4caf50ff",
+          "value": "#68949cff",
           "blendMode": "normal"
         },
         "foreground onbrand": {
@@ -1391,7 +1391,7 @@
         },
         "2": {
           "type": "color",
-          "value": "#404040ff",
+          "value": "#f46570ff",
           "blendMode": "normal"
         },
         "3": {
@@ -1403,6 +1403,12 @@
           "type": "color",
           "value": "#eed483ff",
           "blendMode": "normal"
+        }
+      },
+      "fg": {
+        "primary": {
+          "type": "color",
+          "value": "{_global.color.light.neutral.950}"
         }
       }
     },
@@ -1802,6 +1808,12 @@
           "type": "color",
           "value": "#7a5f0fff",
           "blendMode": "normal"
+        }
+      },
+      "fg": {
+        "primary": {
+          "type": "color",
+          "value": "{_global.color.base.white}"
         }
       }
     },
@@ -2621,11 +2633,11 @@
     },
     "rounded-xl": {
       "type": "dimension",
-      "value": 0
+      "value": 12
     },
     "rounded-2xl": {
       "type": "dimension",
-      "value": 0
+      "value": 16
     },
     "rounded-3xl": {
       "type": "dimension",
