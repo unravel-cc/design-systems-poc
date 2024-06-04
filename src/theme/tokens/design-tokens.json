@@ -1023,7 +1023,7 @@
         },
         "background input rest": {
           "type": "color",
-          "value": "#ffffffff",
+          "value": "#c8c8c8ff",
           "blendMode": "normal"
         },
         "background menu": {
@@ -1060,7 +1060,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#15636dff",
+          "value": "#9c0933ff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
@@ -1457,7 +1457,7 @@
       "brand": {
         "brand 1 rest": {
           "type": "color",
-          "value": "#15636dff",
+          "value": "#ff3d00ff",
           "blendMode": "normal"
         },
         "brand 2 rest": {
@@ -2605,31 +2605,31 @@
     },
     "rounded-sm": {
       "type": "dimension",
-      "value": 2
+      "value": 0
     },
     "rounded": {
       "type": "dimension",
-      "value": 4
+      "value": 0
     },
     "rounded-md": {
       "type": "dimension",
-      "value": 6
+      "value": 0
     },
     "rounded-lg": {
       "type": "dimension",
-      "value": 8
+      "value": 0
     },
     "rounded-xl": {
       "type": "dimension",
-      "value": 12
+      "value": 0
     },
     "rounded-2xl": {
       "type": "dimension",
-      "value": 16
+      "value": 0
     },
     "rounded-3xl": {
       "type": "dimension",
-      "value": 24
+      "value": 0
     },
     "rounded-full": {
       "type": "dimension",
