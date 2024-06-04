@@ -1404,12 +1404,6 @@
           "value": "#eed483ff",
           "blendMode": "normal"
         }
-      },
-      "fg": {
-        "primary": {
-          "type": "color",
-          "value": "{_global.color.light.neutral.950}"
-        }
       }
     },
     "dark": {
@@ -1808,12 +1802,6 @@
           "type": "color",
           "value": "#7a5f0fff",
           "blendMode": "normal"
-        }
-      },
-      "fg": {
-        "primary": {
-          "type": "color",
-          "value": "{_global.color.base.white}"
         }
       }
     },
