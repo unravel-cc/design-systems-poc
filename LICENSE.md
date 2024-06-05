@@ -1,4 +1,4 @@
-**Copyright (c) 2024 Spyrosoft Solution S.A.**
+**Copyright (c) 2024 Unravel S.A.**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
