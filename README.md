@@ -1,4 +1,5 @@
-# UHR
+# POC of Design system integration from Figma to Development via Github Actions
+more about the project can be found here: https://www.unravel.cc/articles/design-systems-webinar
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
